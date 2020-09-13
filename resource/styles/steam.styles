@@ -26,6 +26,25 @@ steam.styles
     med_blue "13 36 82 255"
     bg_blue "10 25 56 255"
 
+	txtTeal="0 206 209 255" //dark turquoise
+	txtTealBright="72 209 204 255" //medium turquoise
+	txtTealDark="95 158 160 255" //cadet blue
+	btnTealButtonFace1="65 128 130 255"
+	btnTealButtonFace2="52 115 117 255"
+	btnTealButtonFace3="55 118 121 255"
+	btnTealButtonFaceActive="80 143 145 255"
+	txtBG="175 238 238 255" //pale turquoise
+	DialogBlue1="0 107 118 255" //cornflower blue //-30 -30 -30 +20
+	DialogBlue2="0 87 98 255" //royal blue //-30 -30 -30 +20
+	UltraTeal="0 255 255 255" //cyan
+	UltraBlue="0 115 255 255" //custom
+	MenuColour="0 106 109 255" //custom
+	MenuBorder="0 205 205 255" //custom
+	MenuSelected="35 176 179 255" //custom
+	btnFaceBlue=DialogBlue1
+	btnFaceBlueHover=DialogBlue2
+	ChatBlue="0 9 107 255"
+
     // control colors
     bordercolor="82 95 122 255"
     darkcorner="58 68 88 255"
