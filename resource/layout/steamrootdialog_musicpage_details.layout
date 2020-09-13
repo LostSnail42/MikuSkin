@@ -12,7 +12,6 @@
 			inset="0 0 0 1"
 			render
 			{
-				9="image(x1-549, y1-582, x0, y0, graphics/Music  )"
 			}
 			render_bg
 			{
