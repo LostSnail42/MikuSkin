@@ -25,10 +25,10 @@
 	View
 	{
 		text="#steam_menu_view"
-		
-		GamesDetails					{	text="#steam_menu_games_details"		shellcmd="steam://nav/games/details" }
-		GamesList						{	text="#steam_menu_games_list"			shellcmd="steam://nav/games/list" }
-		GamesGrid						{	text="#steam_menu_games_grid"			shellcmd="steam://nav/games/grid" }
+
+		Library							{	text="#steam_menu_library"				shellcmd="steam://nav/games" }
+		Hidden							{	text="#steam_menu_hidden_games"			shellcmd="steam://nav/library/collection/hidden" }
+		Downloads						{	text="#steam_menu_downloads"			shellcmd="steam://open/downloads" }
 		Divider							{}
 		MiniMode			[!$OSX]		{	text="#steam_menu_minimode"				shellcmd="steam://open/minigameslist" }
 		LargeMode			[!$OSX]		{	text="#steam_menu_largemode"			shellcmd="steam://open/largegameslist" }
@@ -38,7 +38,6 @@
 		Divider							{}
 		ExitVR							{	text="#steam_menu_exitvr"				command="exitvr" }
 		Divider							{}
-		MusicDetails					{	text="#steam_menu_view_music_details"			shellcmd="steam://nav/music/details" }
 		MusicPlayer						{	text="#steam_menu_view_musicplayer"		shellcmd="steam://open/musicplayer" }
 		Divider							{}
 		Friends							{	text="#steam_menu_friends"				shellcmd="steam://open/friends" }
