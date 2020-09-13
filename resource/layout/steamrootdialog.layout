@@ -204,13 +204,8 @@
 				// fill in the bottom area
 				5="fill( x0, y1 - 76, x1, y1, DialogBG )"
 
-				//image_scale(x0+70[original offset]+45[half of scale width], y0+5, x0+70[original offset]+45[half of scale width]+90[half of imageWidth])
-				//6="image_scale (x0+115, y0+5, x0+205, y0+82, graphics/mikuskin/MikuHead )"
-				6="image_scale (x0+115, y0+5, x0+205, y0+82, graphics/mikuskin/MikuHead )"
+				6="image_scale (x0+50, y0+2, x0+169.33, y0+98, graphics/mikuskin/MikuHead )"
 
-				// xB = x1 - 70 - imageWidthHalf(170), yB = y0, xE = x1 - 70 -imageWidthHalf(170), yE = y0 + imageHeightHalf(66)
-				//7="image_scale(x1-240, y0+5, x1-70, y0+71.5, graphics/mikuskin/piston )"
-				//7="image_scale(x1-296.6, y0-5, x1-70, y0+83.6, graphics/mikuskin/piston )"
 				7="image_scale(x1-309.27, y0-5, x1-70, y0+88.6, graphics/mikuskin/piston )"
 			}
 		}

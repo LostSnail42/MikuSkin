@@ -7,6 +7,8 @@ steam.styles
 	MikuHeadHeight=144
 	MikuHeadWidthHalf=90
 	MikuHeadHeightHalf=77
+	MikuHeadWidthTwoThirds=119.33
+	MikuHeadHeightTwoThirds=96
 
 	PistonWidth=340
 	PistonHeight=133
