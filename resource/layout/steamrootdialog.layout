@@ -141,22 +141,6 @@
 		}
 		}
 
-		MikuLogo
-		{
-			bgcolor=none
-			render_bg={}
-			image="graphics/mikuskin/piston"
-			inset="0 -20 0 0"
-		}
-
-		MikuHead
-		{
-			bgcolor=none
-			render_bg={}
-			image="graphics/mikuskin/MikuHead"
-			inset="0 0 0 0"
-		}
-
 		RootMenu
 		{
 			bgcolor="none"
@@ -204,7 +188,7 @@
 				// fill in the bottom area
 				5="fill( x0, y1 - 76, x1, y1, DialogBG )"
 
-				6="image_scale (x0+50, y0+2, x0+169.33, y0+98, graphics/mikuskin/MikuHead )"
+				6="image_scale (x0+52, y0+2, x0+171.33, y0+98, graphics/mikuskin/MikuHead )"
 
 				7="image_scale(x1-309.27, y0-5, x1-70, y0+88.6, graphics/mikuskin/piston )"
 			}

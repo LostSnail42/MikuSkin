@@ -43,6 +43,12 @@ steam.styles
     med_blue "13 36 82 255"
     bg_blue "10 25 56 255"
 
+	gray_high_trans "50 50 50 125"
+	gray_very_high_trans "50 50 50 60"
+	light_gray_high_trans "150 150 150 60"
+
+    tealBG="0 80 90 255"// teal
+
 	txtTeal="0 206 209 255" //dark turquoise
 	txtTealBright="72 209 204 255" //medium turquoise
 	txtTealDark="95 158 160 255" //cadet blue
@@ -152,7 +158,7 @@ steam.styles
     ClientBG="18 26 42 255"
     ClientBGTop="25 32 46 255"
     ClientGrouper="40 46 54 255"
-    DialogBG="42 46 51 255"
+    DialogBG=tealBG
     DialogBGFade1="42 46 51 255"
     DialogBGFade2="42 46 51 0"
 
