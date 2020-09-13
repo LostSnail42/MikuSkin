@@ -23,7 +23,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"account_balance"
 			"style"			"AccountBalanceStyle"
-			
+
 			"zpos" 			"-2" // behind dropdown button
 		}
 
@@ -75,16 +75,16 @@
 				0="gradient_horizontal( x0, y0 - 1, x0 + 2, y1 + 1, Friends.InGameColor, DialogBG )"
 			}
 		}
-		
+
 		AccountDropDownStyleOffline
 		{
 			render_bg
 		  	{
 				1="image( x0, y0+10, x1, y1, graphics/dropdown_offline )"
 			}
-			
+
 		}
-		
+
 		AccountDropDownStyleOnline
 		{
 			render_bg
@@ -92,7 +92,7 @@
 				1="image( x0, y0 + 10, x1, y1, graphics/dropdown_online )"
 			}
 		}
-		
+
 		AccountDropDownStyleInGame
 		{
 			render_bg
@@ -103,10 +103,12 @@
 
 		AccountButtonStyle
 		{
+			//textcolor=white
 			render_bg
 		  	{
 				// background fill
-				0="fill( x0, y0, x1, y1, dark_blue )"
+				//0="fill( x0, y0, x1, y1, dark_blue )"
+				0="fill(x0, y0, x1, y1, dark_blue_high_trans)"
 			}
 		}
 
@@ -115,7 +117,8 @@
 			render_bg
 		  	{
 				// background fill
-				0="fill( x0, y0, x1, y1, darkblue )"
+				//0="fill( x0, y0, x1, y1, darkblue )"
+				0="fill( x0, y0, x1, y1, dark_blue_low_trans)"
 			}
 		}
 
@@ -142,7 +145,7 @@
 		      font-style=regular
 		      inset="0 1 0 0"
 		}
-		
+
 		AccountMenuButtonStyle
 		{
 			render_bg
