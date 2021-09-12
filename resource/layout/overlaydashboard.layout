@@ -76,6 +76,7 @@
 			render_bg
 			{
 				0="gradient( x0, y0, x1, y1, none, black )"
+				1="image(x1-458, y1-682, x0, y0, graphics/mikuskin/gameoverlaymiku )"
 			}
 		}	
 		overlaymain
